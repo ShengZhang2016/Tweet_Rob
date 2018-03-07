@@ -17,5 +17,32 @@
 ### Environment
 
 '''
-conda create -n twitter python=3.6
+conda create -n twitter_env python=3.6
+
+npm i ejs
+
+npm i body-parser
+
+npm i -g bower
+
+bower i bootstrap
+
+<!-- This is for time scheduler -->
+pip install apscheduler
+pip install pandas
 '''
+
+run 
+
+
+## Add support for MongoDB
+    The above two dependencies are related to cookies and sessions
+    "connect": ">= 1.x",
+    "connect-mongo": ">= 0.1.7",
+    "mongodb": ">= 0.9.9"
+
+## Notice
+###models: files related to database
+###public: static files, e.g. css, img
+###routes: Routers
+###views: views
